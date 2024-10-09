@@ -19,8 +19,7 @@ def slow_power(x, m=4):
 
 
 def vec_power(x, m=4):
-    pass  # insert your new code here
-
+    return x**m
 
 def make_data1(size=1000):
     np.random.seed(4)
